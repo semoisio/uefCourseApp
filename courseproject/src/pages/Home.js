@@ -5,7 +5,7 @@ import NavbarOwn from "../Navbar";
 function Home() {
   return (
     <Container className="mt-5">
-        <NavbarOwn></NavbarOwn>
+        <NavbarOwn/>
       <h1>ISO/IEC 27001 Implementation</h1>
       <p>
         Implementing ISO/IEC 27001 requires a structured approach to establish an

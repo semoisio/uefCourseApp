@@ -3,7 +3,7 @@ import NavbarOwn from "../Navbar";
 function History() {
   return (
     <Container className="mt-5">
-        <NavbarOwn></NavbarOwn>
+        <NavbarOwn/>
       <h1>History of ISO/IEC 27001</h1>
       <p>
         ISO/IEC 27001 is an internationally recognized standard for information

@@ -3,7 +3,7 @@ import NavbarOwn from "../Navbar";
 function Requirements() {
   return (
     <Container className="mt-5">
-        <NavbarOwn></NavbarOwn>
+        <NavbarOwn/>
       <h1>ISO/IEC 27001 Requirements</h1>
       <p>
         ISO/IEC 27001 outlines the requirements for establishing, implementing,
