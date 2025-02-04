@@ -1,6 +1,10 @@
 /* Add this to your CSS file (e.g., App.css or Navbar.css) */
 .nav-link.active {
-    background-color: #666b6f;  /* You can change this to any color you like */
-    color: white;
-  }
+  background-color: #00ADB5;  /* You can change this to any color you like */
+  color: white;
+}
   
+
+ReactPlayer {
+  height:auto;
+}
