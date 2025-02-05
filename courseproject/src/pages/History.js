@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
-import NavbarOwn from "../Navbar";
+import NavbarOwn from "./Navbar";
+
 function History() {
   return (
     <Container className="mt-5">
