@@ -28,46 +28,62 @@ function Home() {
           </Col>
       </Row>
       <Row>
-        <Col className='mt-3' xs={12} md={8}>
+        <Col className='mt-2' xs={12} md={12}>
         <Card className="text-center shadow-lg border-0 p-4">
             <Card.Body>
               <Card.Title className="display-5 fw-bold">Welcome to ISO/IEC 27001 world</Card.Title>
+              <Image  src="/images/27001_small.png" roundedCircle fluid/>
               <Card.Text className="text-muted mt-3">
                 We are delighted to have you here! Explore our amazing features and 
                 services designed to enhance your experience. Stay connected and 
                 discover more.
               </Card.Text>
-              <Button variant="info" className="mt-3" onClick={handleShow}>Get Started</Button>
-              <Offcanvas show={show} onHide={handleClose}>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Preliminary info</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-        ISO/IEC 27001 is the well-known standard which sets requirements for the organization on how to
-establish an ISMS. Standard provides requirements for the organization in 8 clauses: context of the organization, leadership, planning, support, operation,
-performance evaluation, and improvement. In addition to requirements, the standard provides predefined
-control list which organization must reference during the implementation process.
-Organizations want to acquire certification against ISO/IEC 27010 standard because it provides trust on
-information security and creates competitive advantages over competitors.
-Established ISMS and the trust it provides also correlates the valuation of the company if major
-information security incident occurs. Moreover, acquiring the certification improves
-the internal processes on the organization by streamlining the processes and enhancing the
-documentation. Certification process also enhances the identification risks and threat
-protection as well as creates opportunities to get competitive advantages. Furthermore, ISO/IEC 27001
-requires organization to clearly define management structures which leads improvement in overall
-performance of the organization. All this leads to improvements in business continuity which helps to
-maintain value of the company over uncertain times.
-
-        </Offcanvas.Body>
-      </Offcanvas>
+              <Button variant="info" className="mt-2" onClick={handleShow}>Get Started</Button>
             </Card.Body>
+            
           </Card>
-        </Col>
-        <Col className='p-2 mt-5' xs={12} md={4}>
-          <Image  src="/images/27001_small.png" fluid  />
+          
         </Col>
       </Row>
-      <Row className=' p-3'>
+      <Offcanvas show={show} onHide={handleClose}>
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title className='text-primary'>Preliminary info</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+        <div class="card shadow p-4">
+            <h1 class="text-primary">ISO/IEC 27001 Overview</h1>
+            <p><strong>ISO/IEC 27001</strong> is a well-known standard that sets requirements for organizations on how to establish an <strong>Information Security Management System (ISMS)</strong>.</p>
+            
+            <h2 class="text-secondary">Key Clauses of ISO/IEC 27001</h2>
+            <p>The standard outlines requirements in the following eight clauses:</p>
+            <ul class="list-group mb-3">
+                <li class="list-group-item">Context of the organization</li>
+                <li class="list-group-item">Leadership</li>
+                <li class="list-group-item">Planning</li>
+                <li class="list-group-item">Support</li>
+                <li class="list-group-item">Operation</li>
+                <li class="list-group-item">Performance evaluation</li>
+                <li class="list-group-item">Improvement</li>
+            </ul>
+            
+            <h2 class="text-secondary">Control List and Implementation</h2>
+            <p>In addition to these requirements, the standard provides a predefined control list that organizations must reference during the implementation process.</p>
+            
+            <h2 class="text-secondary">Benefits of Certification</h2>
+            <p>Organizations seek certification for several reasons:</p>
+            <ul class="list-group">
+                <li class="list-group-item">It builds trust in information security practices.</li>
+                <li class="list-group-item">It creates a competitive advantage over competitors.</li>
+                <li class="list-group-item">It strengthens business valuation in case of a security incident.</li>
+                <li class="list-group-item">It improves internal processes by streamlining workflows and enhancing documentation.</li>
+                <li class="list-group-item">It enhances risk identification and threat protection.</li>
+                <li class="list-group-item">It establishes clear management structures, leading to better overall performance.</li>
+                <li class="list-group-item">It supports business continuity and helps maintain company value during uncertain times.</li>
+            </ul>
+        </div>
+        </Offcanvas.Body>
+      </Offcanvas>
+      <Row className='pt-2 pb-2'>
         <ReactPlayer
         url="https://www.youtube.com/watch?v=jPA6gbsT2IQ" 
         width="100%" 

@@ -1,8 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import './footer.css'
 
 const Footer = () => {
   const [show, setShow] = useState(false);
@@ -13,21 +14,33 @@ const Footer = () => {
     <footer className="bg-dark text-light py-3">
       <Container fluid>
         <Row>
-          <Col md={6} className="text-center text-md-start">
+          <Col md={5} className="text-center text-md-start">
             <p>&copy; {new Date().getFullYear()} Your Company. All Rights Reserved.</p>
           </Col>
-          <Col md={6} className="text-center text-md-end">
-          <Button variant="link" onClick={handleShow}>
-            Contacts
-        </Button>
-        <Offcanvas show={show} onHide={handleClose}>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Contacts</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          Please contact me mockup@email.fi
-        </Offcanvas.Body>
-      </Offcanvas>
+          <Col md={2} className="text-center text-md-start">
+              <Image className="footer-image" src="/images/27001_small.png" rounded/>
+          </Col>
+          <Col md={5} className="text-center text-md-end">
+            <Button 
+              variant="link" 
+              onClick={handleShow} 
+              aria-label="Contact details"
+            >
+              Contacts
+            </Button>
+            <Offcanvas 
+              show={show} 
+              onHide={handleClose} 
+              aria-labelledby="offcanvasContactsLabel"
+            >
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title id="offcanvasContactsLabel">Contact Information</Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                Please contact me at: <a href="mailto:mockup@email.fi">mockup@email.fi</a>
+                <Image className='pt-2' src="/images/27001_small.png" roundedCircle fluid/>
+              </Offcanvas.Body>
+            </Offcanvas>
           </Col>
         </Row>
       </Container>
