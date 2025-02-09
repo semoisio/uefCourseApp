@@ -19,7 +19,7 @@ function NavbarOwn() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link className={isActive('/')}  href="/">Home</Nav.Link>
+              <Nav.Link className={isActive('/uefCourseApp')}  href="/">Home</Nav.Link>
               <Nav.Link className={isActive('/history')}  href="/history">History</Nav.Link>
               <Nav.Link  className={isActive('/requirements')} href="/requirements">Requirements</Nav.Link>
               <Nav.Link className={isActive('/implementation')} href="/implementation">Implementation</Nav.Link>

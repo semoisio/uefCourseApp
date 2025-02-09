@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
+  { path: "/uefCourseApp", element: <Home /> },
   { path: "/history", element: <History /> },
   { path: "/requirements", element: <Requirements /> },
   { path: "/implementation", element: <Implementation /> },
