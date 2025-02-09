@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uefCourseApp/static/css/main.97fc8145.css",
-    "main.js": "/uefCourseApp/static/js/main.d5535938.js",
+    "main.js": "/uefCourseApp/static/js/main.5d3ce162.js",
     "reactPlayerYouTube.js": "/uefCourseApp/static/js/reactPlayerYouTube.aba22608.chunk.js",
     "reactPlayerSoundCloud.js": "/uefCourseApp/static/js/reactPlayerSoundCloud.d4fea990.chunk.js",
     "reactPlayerVimeo.js": "/uefCourseApp/static/js/reactPlayerVimeo.9e98de93.chunk.js",
@@ -19,7 +19,7 @@
     "static/js/488.45fa8bab.chunk.js": "/uefCourseApp/static/js/488.45fa8bab.chunk.js",
     "index.html": "/uefCourseApp/index.html",
     "main.97fc8145.css.map": "/uefCourseApp/static/css/main.97fc8145.css.map",
-    "main.d5535938.js.map": "/uefCourseApp/static/js/main.d5535938.js.map",
+    "main.5d3ce162.js.map": "/uefCourseApp/static/js/main.5d3ce162.js.map",
     "reactPlayerYouTube.aba22608.chunk.js.map": "/uefCourseApp/static/js/reactPlayerYouTube.aba22608.chunk.js.map",
     "reactPlayerSoundCloud.d4fea990.chunk.js.map": "/uefCourseApp/static/js/reactPlayerSoundCloud.d4fea990.chunk.js.map",
     "reactPlayerVimeo.9e98de93.chunk.js.map": "/uefCourseApp/static/js/reactPlayerVimeo.9e98de93.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.97fc8145.css",
-    "static/js/main.d5535938.js"
+    "static/js/main.5d3ce162.js"
   ]
 }
