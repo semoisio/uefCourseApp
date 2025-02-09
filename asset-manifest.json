@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uefCourseApp/static/css/main.97fc8145.css",
-    "main.js": "/uefCourseApp/static/js/main.b54d417f.js",
+    "main.js": "/uefCourseApp/static/js/main.abc1c2c7.js",
     "reactPlayerYouTube.js": "/uefCourseApp/static/js/reactPlayerYouTube.aba22608.chunk.js",
     "reactPlayerSoundCloud.js": "/uefCourseApp/static/js/reactPlayerSoundCloud.d4fea990.chunk.js",
     "reactPlayerVimeo.js": "/uefCourseApp/static/js/reactPlayerVimeo.9e98de93.chunk.js",
@@ -17,9 +17,14 @@
     "reactPlayerFilePlayer.js": "/uefCourseApp/static/js/reactPlayerFilePlayer.220e52ee.chunk.js",
     "reactPlayerPreview.js": "/uefCourseApp/static/js/reactPlayerPreview.ab5019ba.chunk.js",
     "static/js/488.45fa8bab.chunk.js": "/uefCourseApp/static/js/488.45fa8bab.chunk.js",
+    "static/media/history_large.png": "/uefCourseApp/static/media/history_large.7521169f923b4a3f1889.png",
+    "static/media/27001_small.png": "/uefCourseApp/static/media/27001_small.e957137cd842ed5628fc.png",
+    "static/media/example_smaller.png": "/uefCourseApp/static/media/example_smaller.7b1c90be3e39e6e2ce7b.png",
+    "static/media/27001_bacground.webp": "/uefCourseApp/static/media/27001_bacground.19e96a770e0179baf498.webp",
+    "static/media/Requirements_large.png": "/uefCourseApp/static/media/Requirements_large.6eb038e9344731464ce8.png",
     "index.html": "/uefCourseApp/index.html",
     "main.97fc8145.css.map": "/uefCourseApp/static/css/main.97fc8145.css.map",
-    "main.b54d417f.js.map": "/uefCourseApp/static/js/main.b54d417f.js.map",
+    "main.abc1c2c7.js.map": "/uefCourseApp/static/js/main.abc1c2c7.js.map",
     "reactPlayerYouTube.aba22608.chunk.js.map": "/uefCourseApp/static/js/reactPlayerYouTube.aba22608.chunk.js.map",
     "reactPlayerSoundCloud.d4fea990.chunk.js.map": "/uefCourseApp/static/js/reactPlayerSoundCloud.d4fea990.chunk.js.map",
     "reactPlayerVimeo.9e98de93.chunk.js.map": "/uefCourseApp/static/js/reactPlayerVimeo.9e98de93.chunk.js.map",
@@ -38,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.97fc8145.css",
-    "static/js/main.b54d417f.js"
+    "static/js/main.abc1c2c7.js"
   ]
 }
