@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router';
+import { createBrowserRouter, RouterProvider, createHashRouter } from 'react-router';
 import Home from "./pages/Home"
 import History from "./pages/History";
 import Requirements from "./pages/Requirements";
@@ -8,11 +8,11 @@ import Implementation from "./pages/Implementation";
 import "bootstrap/dist/css/bootstrap.min.css";
 import reportWebVitals from './reportWebVitals';
 
-const router = createBrowserRouter([
-  { path: "/uefCourseApp", element: <Home /> },
-  { path: "/uefCourseApp/history", element: <History /> },
-  { path: "/uefCourseApp/requirements", element: <Requirements /> },
-  { path: "/uefCourseApp/implementation", element: <Implementation /> },
+const router = createHashRouter([
+  { path: "/", element: <Home /> },
+  { path: "/history", element: <History /> },
+  { path: "/requirements", element: <Requirements /> },
+  { path: "/implementation", element: <Implementation /> },
 ]);
 
 document.body.style.backgroundColor = "#D3D3D3";
