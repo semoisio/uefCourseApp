@@ -1,28 +1,52 @@
-import { Container } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
+import Row from "react-bootstrap/Row";
 import NavbarOwn from "./Navbar";
+import Card from "react-bootstrap/Card";
+import Footer from "./Footer";
+import HistoryText from "./historyComponents/historyText";
 
 function History() {
   return (
-    <Container className="mt-5">
+    <>
+    <Container className="mt-5 bg-light">
         <NavbarOwn/>
-      <h1>History of ISO/IEC 27001</h1>
-      <p>
-        ISO/IEC 27001 is an internationally recognized standard for information
-        security management systems (ISMS). First published in 2005, it
-        provides requirements for establishing, implementing, maintaining, and
-        continually improving an ISMS.
-      </p>
-      <p>
-        The origins of ISO/IEC 27001 can be traced back to the British Standard
-        BS 7799, which was first introduced in 1995. Over time, it evolved
-        through various revisions, aligning with global security practices.
-      </p>
-      <p>
-        The standard underwent major updates in 2013 and 2022 to address
-        emerging cybersecurity threats and changes in technology, ensuring its
-        relevance in the modern digital era.
-      </p>
+        <Row>
+          <Col className="p-1" xs={12} md={12}>
+            <Image
+              className="d-block d-md-none"
+              src="/images/history_large.png"
+              fluid
+            />
+            <Image
+              className="d-block mx-auto w-100 d-none d-md-block"
+              src="/images/history_large.png"
+              fluid
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col className="mt-2" xs={12} md={12}>
+            <Card className="text-center shadow-lg border-0 p-4">
+              <Card.Body>
+                <Card.Title className="text-primary display-5 fw-bold">
+                  History
+                </Card.Title>
+                <Row className="mt-4">
+                  <Col md={12} className="align-content-center">
+                    <Card.Text className="mt-3">
+                      <HistoryText/>
+                    </Card.Text>
+                  </Col>
+                </Row>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
     </Container>
+    <Footer/>
+    </>
   );
 }
 

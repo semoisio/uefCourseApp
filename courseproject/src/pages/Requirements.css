@@ -1,6 +1,16 @@
 .custom-img {
     width: 100%;
-    height: auto;
+    min-height: 300px;
     max-height: 500px;
     object-fit: cover;
+}
+
+@media (max-width: 575.98px) {
+    .custom-text {
+        font-size: 0.8rem;
+      }
+    
+    .custom-header {
+        font-size: 1rem; 
+    }
 }
