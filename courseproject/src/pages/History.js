@@ -6,6 +6,7 @@ import NavbarOwn from "./Navbar";
 import Card from "react-bootstrap/Card";
 import Footer from "./Footer";
 import HistoryText from "./historyComponents/historyText";
+import historyImage from './images/history_large.png'
 
 function History() {
   return (
@@ -16,12 +17,12 @@ function History() {
           <Col className="p-1" xs={12} md={12}>
             <Image
               className="d-block d-md-none"
-              src="/images/history_large.png"
+              src={historyImage}
               fluid
             />
             <Image
               className="d-block mx-auto w-100 d-none d-md-block"
-              src="/images/history_large.png"
+              src={historyImage}
               fluid
             />
           </Col>

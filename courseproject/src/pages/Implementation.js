@@ -6,6 +6,7 @@ import NavbarOwn from "./Navbar";
 import Footer from "./Footer";
 import Card from "react-bootstrap/Card";
 import { Accordion } from "react-bootstrap";
+import implementationImage from './images/example_smaller.png'
 
 function Implementation() {
   return (
@@ -16,12 +17,12 @@ function Implementation() {
           <Col className="p-0" xs={12} md={12}>
             <Image
               className="d-block d-md-none"
-              src="/images/example_smaller.png"
+              src={implementationImage}
               fluid
             />
             <Image
               className="d-block mx-auto w-100 d-none d-md-block"
-              src="/images/example_smaller.png"
+              src={implementationImage}
               fluid
             />
           </Col>

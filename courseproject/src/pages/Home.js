@@ -10,6 +10,8 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { useState } from "react";
+import backgroundImage from "./images/27001_bacground.webp";
+import smallImage from "./images/27001_small.png";
 
 function Home() {
   const [show, setShow] = useState(false);
@@ -24,12 +26,12 @@ function Home() {
           <Col className="p-0" xs={12} md={12}>
             <Image
               className="d-block d-md-none"
-              src="/images/27001_bacground.webp"
+              src={backgroundImage}
               fluid
             />
             <Image
               className="d-block mx-auto w-100 d-none d-md-block"
-              src="/images/27001_bacground.webp"
+              src={backgroundImage}
               fluid
             />
           </Col>
@@ -43,7 +45,7 @@ function Home() {
                 </Card.Title>
                 <Row className="mt-4">
                   <Col md={5}>
-                    <Image src="/images/27001_small.png" roundedCircle fluid />
+                    <Image src={smallImage} roundedCircle fluid />
                   </Col>
                   <Col md={5} className="align-content-center">
                     <Card.Text className="mt-3">

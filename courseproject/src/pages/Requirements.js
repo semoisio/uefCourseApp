@@ -16,6 +16,8 @@ import Support from "./requirements/support";
 import Operation from "./requirements/operation";
 import PerformanceEvaluation from "./requirements/performanceEvaluation";
 import Improvement from "./requirements/improvements";
+import carousselPlaceHolder from './images/caroussel_Placeholder_grey.png'
+import requirementsImage from './images/Requirements_large.png'
 
 function Requirements() {
   const [show1, setShow1] = useState(false);
@@ -61,12 +63,12 @@ function Requirements() {
           <Col className="p-0" xs={12} md={12}>
             <Image
               className="d-block d-md-none"
-              src="/images/Requirements_large.png"
+              src={requirementsImage}
               fluid
             />
             <Image
               className="d-block mx-auto w-100 d-none d-md-block"
-              src="/images/Requirements_large.png"
+              src={requirementsImage}
               fluid
             />
           </Col>
@@ -77,7 +79,7 @@ function Requirements() {
             <Carousel.Item>
               <Image
                 className="custom-img"
-                src="/images/caroussel_Placeholder_grey.png"
+                src={carousselPlaceHolder}
                 fluid
               />
               <Carousel.Caption>
@@ -107,7 +109,7 @@ function Requirements() {
             <Carousel.Item>
               <Image
                 className="custom-img"
-                src="/images/caroussel_Placeholder_grey.png"
+                src={carousselPlaceHolder}
                 fluid
               />
               <Carousel.Caption>
@@ -135,7 +137,7 @@ function Requirements() {
             <Carousel.Item>
               <Image
                 className="custom-img"
-                src="/images/caroussel_Placeholder_grey.png"
+                src={carousselPlaceHolder}
                 fluid
               />
               <Carousel.Caption>
@@ -163,7 +165,7 @@ function Requirements() {
             <Carousel.Item>
               <Image
                 className="custom-img"
-                src="/images/caroussel_Placeholder_grey.png"
+                src={carousselPlaceHolder}
                 fluid
               />
               <Carousel.Caption>
@@ -191,7 +193,7 @@ function Requirements() {
             <Carousel.Item>
               <Image
                 className="custom-img"
-                src="/images/caroussel_Placeholder_grey.png"
+                src={carousselPlaceHolder}
                 fluid
               />
               <Carousel.Caption>
@@ -222,7 +224,7 @@ function Requirements() {
             <Carousel.Item>
               <Image
                 className="custom-img"
-                src="/images/caroussel_Placeholder_grey.png"
+                src={carousselPlaceHolder}
                 fluid
               />
               <Carousel.Caption>
@@ -253,7 +255,7 @@ function Requirements() {
             <Carousel.Item>
               <Image
                 className="custom-img"
-                src="/images/caroussel_Placeholder_grey.png"
+                src={carousselPlaceHolder}
                 fluid
               />
               <Carousel.Caption>

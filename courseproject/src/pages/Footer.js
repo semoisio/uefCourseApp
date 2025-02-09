@@ -4,6 +4,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "./footer.css";
+import footerImage from './images/27001_small.png'
 
 const Footer = () => {
   const [show, setShow] = useState(false);
@@ -23,7 +24,7 @@ const Footer = () => {
           <Col md={2} className="text-center text-md-start align-content-center">
             <Image
               className="footer-image"
-              src="/images/27001_small.png"
+              src={footerImage}
               rounded
             />
           </Col>
@@ -50,7 +51,7 @@ const Footer = () => {
                 <a href="mailto:mockup@email.fi">mockup@email.fi</a>
                 <Image
                   className="pt-2"
-                  src="/images/27001_small.png"
+                  src={footerImage}
                   roundedCircle
                   fluid
                 />
