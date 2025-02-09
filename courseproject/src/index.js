@@ -10,9 +10,9 @@ import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
   { path: "/uefCourseApp", element: <Home /> },
-  { path: "/history", element: <History /> },
-  { path: "/requirements", element: <Requirements /> },
-  { path: "/implementation", element: <Implementation /> },
+  { path: "/uefCourseApp/history", element: <History /> },
+  { path: "/uefCourseApp/requirements", element: <Requirements /> },
+  { path: "/uefCourseApp/implementation", element: <Implementation /> },
 ]);
 
 document.body.style.backgroundColor = "#D3D3D3";
