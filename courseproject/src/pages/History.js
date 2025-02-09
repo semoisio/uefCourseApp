@@ -29,7 +29,7 @@ function History() {
         </Row>
         <Row>
           <Col className="mt-2" xs={12} md={12}>
-            <Card className="text-center shadow-lg border-0 p-4">
+            <Card className="text-center shadow-lg border-0 p-1">
               <Card.Body>
                 <Card.Title className="text-primary display-5 fw-bold">
                   History
