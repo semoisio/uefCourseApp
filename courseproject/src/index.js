@@ -1,26 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider, createHashRouter } from 'react-router';
-import Home from "./pages/Home"
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { HashRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
 import History from "./pages/History";
 import Requirements from "./pages/Requirements";
 import Implementation from "./pages/Implementation";
 import "bootstrap/dist/css/bootstrap.min.css";
-import reportWebVitals from './reportWebVitals';
-
-const router = createHashRouter([
-  { path: "/", element: <Home /> },
-  { path: "/history", element: <History /> },
-  { path: "/requirements", element: <Requirements /> },
-  { path: "/implementation", element: <Implementation /> },
-]);
+import reportWebVitals from "./reportWebVitals";
 
 document.body.style.backgroundColor = "#D3D3D3";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-      <RouterProvider router={router}/>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/history" element={<History />} />
+        <Route path="/requirements" element={<Requirements />} />
+        <Route path="/implementation" element={<Implementation />} />
+      </Routes>
+    </HashRouter>
   </React.StrictMode>
 );
 
